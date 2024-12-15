@@ -10,11 +10,11 @@ use PrivateBin\I18n;
 	<meta charset="utf-8" />
 	<meta http-equiv="Content-Security-Policy" content="<?php echo I18n::encode($CSPHEADER); ?>">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="robots" content="noindex" />
 	<meta name="google" content="notranslate">
+	<link type="text/css" rel="stylesheet" href="css/evarioo/style.css?<?php echo rawurlencode($VERSION); ?>" />
 	<title><?php echo I18n::_($NAME); ?></title>
-	<link type="text/css" rel="stylesheet" href="css/bootstrap/privatebin.css?<?php echo rawurlencode($VERSION); ?>" />
 	<?php
 	if ($SYNTAXHIGHLIGHTING):
 		?>
@@ -101,7 +101,6 @@ use PrivateBin\I18n;
 	   echo ' class="', implode(' ', $class), '"';
    }
    ?>>
-	cvcbcbvcb
 	<div id="passwordmodal" tabindex="-1" class="modal fade" role="dialog" aria-hidden="true">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
