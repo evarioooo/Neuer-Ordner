@@ -7,7 +7,7 @@
     <link href="./css/evarioo/style.css" rel="stylesheet">
 </head>
 
-<body class="primary">
+<body class="bg-primary">
     <h1 class="text-3xl font-bold underline">
         Hello world!
     </h1>
